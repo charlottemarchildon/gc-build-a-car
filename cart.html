@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./styles/stylesabout.css">
+        <link rel="icon" href="./images/car.png">
+        <script src="./js/thanksjs.js" defer></script>
+
+        <title>Your cart</title>
+    </head>
+
+    <nav>
+        <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./buildacar.html">Build-A-Car</a></li>
+            <li><a href="./about.html">About</a></li>
+        </ul>
+    </nav>
+
+    <body>
+        <h1>Your Cart</h1>
+
+        <section class="main-section" id="section-3">
+            <h3>Submit Order</h3>
+    
+            <form action="./thanks.html">
+                <div class="form">
+                    <label class="required" for="firstName">First Name</label>
+                    <input type="text" name="firstName" id="firstName" required placeholder="First name">
+                </div>
+    
+                <div class="form">
+                    <label class="required" for="lastName">Last Name</label>
+                    <input type="text" name="lastName" id="lastName" required placeholder="Last name">
+                </div>
+    
+                <div class="form">
+                    <label class="required" for="email">Email</label>
+                    <input type="email" name="email" id="email" required placeholder="youremail@example.com">
+                </div>
+
+                <div class="address">
+                    <label class="required" for="address">Address</label>
+                    <input type="address" name="address" id="address" required placeholder="Your address">
+                </div>
+                    <button type="submit">Click</button> 
+                </form>              
+        </section>
+    </body>
+<main>
+    <p id="cart"></p>
+</main>
+    <footer>
+        <p>Build-A-Car &copy; 2022</p>
+    </footer>
+</html>
